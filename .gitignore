@@ -1,0 +1,14 @@
+node_modules/
+dist/
+
+# Environment & secrets
+.env
+backend/.env
+
+# Generated database
+backend/*.db
+
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
